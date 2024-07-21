@@ -1,3 +1,9 @@
+/*
+*Ethan Chang
+*echang28@u.rochester.edu
+*
+*07/21/2024: Creating Infix Calculator
+*/
 class CalQueue 
 {
   LinkedList list = new LinkedList();
