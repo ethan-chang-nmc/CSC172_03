@@ -6,19 +6,22 @@
 */
 class CalQueue 
 {
-  LinkedList list = new LinkedList();
+  LinkedList list = new LinkedList(); //initialize new linked list
+  /*function to add new data to queue*/
   public void enqueue(String data) 
   {
-    list.insert(data);
+    list.insert(data);//adds new data to queue
   }
-    
+
+  /*function that removes last item in linked list queue*/
   public String dequeue() 
   {
-    return list.remove();
+    return list.delLast(); //removes last data in linked list
   }
-    
+
+  /*checks to see if queue is empty*/
   public boolean isEmpty() 
   {
-    return list.isEmpty();
+    return list.isEmpty();//chekcs to see if queue is empty
   }
 }
