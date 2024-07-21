@@ -81,7 +81,7 @@ class CalLinkedList
   /*checks to see if list is empty*/
   public boolean isEmpty() 
   {
-    return head == null;
+    return head == null; //when list is empty, head is null and returns true
   }
 
   /*looks at first element of list and returns the value*/
@@ -89,8 +89,20 @@ class CalLinkedList
   {
     if (head == null) 
     {
-      return null;
+      return null; //checks for case where list is empty
     }
-    return head.data;
+    return head.data; //otherwise, return firsts element
   }
+
+  /*removes last element in list*/
+  public String delFirst() 
+  {
+    if (head == null) 
+    {
+      return null; //checks for case where list is empty
+    }
+    String data = head.data; //set data = first element in list
+    head = head.next; //shifts head pointer to next element in list
+    return data; //returns first element (before removal) in list
+    }
 }
