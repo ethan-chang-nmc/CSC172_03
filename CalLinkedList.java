@@ -77,4 +77,20 @@ class CalLinkedList
     delNode = delNode.next;
     }
   }
+
+  /*checks to see if list is empty*/
+  public boolean isEmpty() 
+  {
+    return head == null;
+  }
+
+  /*looks at first element of list and returns the value*/
+  public String peekFirst() 
+  {
+    if (head == null) 
+    {
+      return null;
+    }
+    return head.data;
+  }
 }
