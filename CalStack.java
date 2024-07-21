@@ -3,7 +3,6 @@
 *echang28@u.rochester.edu
 *
 *07/21/2024: Creating Infix Calculator
-*Code adapted from Lab 2
 */
 class CalStack 
 {
