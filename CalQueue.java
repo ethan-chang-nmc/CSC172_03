@@ -6,7 +6,7 @@
 */
 class CalQueue 
 {
-  LinkedList list = new LinkedList(); //initialize new linked list
+  CalLinkedList list = new CalLinkedList(); //initialize new linked list
   /*function to add new data to queue*/
   public void enqueue(String data) 
   {
