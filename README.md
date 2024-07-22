@@ -10,5 +10,5 @@ This lab and code is meant to create an infix calculator using stack and queue a
 
 Examples from the Data Structures and Algorithms zyBook by Roman Lysecky and Frank Vahid was referenced when writing this code. 
 
-List of file headers and what is in each one: <br/>
+List of file headers and what is in each file: <br/>
 
