@@ -10,7 +10,7 @@ class CalLinkedList
   CalNode head = null; //creates and sets head node to null
 
   /*Creates a new node with x as data and adds it to the front of the linked list*/
-  public void insert(Object x)
+  public void insert(String x)
   {
     CalNode newNode = new CalNode(); //makes new node
     newNode.data = x; //set that data in new node to x
@@ -47,8 +47,8 @@ class CalLinkedList
       head = null; //move head pointer to null
       return data; //return the element
     }
-    Node prev = null; //set prev node equal to null
-    Node current = head; //set current node equal to head
+    CalNode prev = null; //set prev node equal to null
+    CalNode current = head; //set current node equal to head
     while (current.next != null) //while loop to iterate through linked list until current node is last node
     {
       prev = current; //move previous node to where current node is
