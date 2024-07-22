@@ -8,6 +8,6 @@
 /*Node MyNode definition*/
 public class CalNode 
 {
-  public Object data;
-  public MyNode next;
+  public String data;
+  public CalNode next;
 }
